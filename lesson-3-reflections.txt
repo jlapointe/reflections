@@ -13,3 +13,6 @@ Forking would be used when you want to use a repository as a base to for your ow
 
 What is the benefit of having a copy of the last known state of the remote stored locally?
 Having a local "reference" copy of the remote lets you know in advance if pushing to the remote will generate conflicts.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+It would be really hard! Probably we'd use email or some other filesharing mechanism to compare versions. We'd have to decide in advance who's going to work on which files -- or do some similar type of planning -- otherwise things would get messy.
