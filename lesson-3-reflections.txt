@@ -10,3 +10,6 @@ Forks, clones, and branches are all similar in that they create copies of a repo
 Branching only copies the commits reachable from the current head, and would be used when you want to think of the copy as an (likely temporary) offshoot of the original, perhaps to work on an experimental new feature. Branches are more likely than clones to diverge significantly from the original.
 
 Forking would be used when you want to use a repository as a base to for your own project, that may not necessarily be merged back to the original. Forking still retains a historical link to the original, allowing for attribution and receiving updates, but a fork has a high potential to diverge into a separate project of its own.
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+Having a local "reference" copy of the remote lets you know in advance if pushing to the remote will generate conflicts.
