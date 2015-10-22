@@ -3,3 +3,10 @@ When collaborating with multiple contributors, using remotes seems essential. Al
 
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 I may be working on my own changes on the local repository, and it would be confusing if Git decided to pull other changes introduced on remote. Additionally, pulling automatically would take time/bandwidth that I might not want to spend.
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+Forks, clones, and branches are all similar in that they create copies of a repository in another location. Cloning would be used when you want to think of the copy and the original as the same object, periodically syncing the clone with the original. A clone contains all branches of the original.
+
+Branching only copies the commits reachable from the current head, and would be used when you want to think of the copy as an (likely temporary) offshoot of the original, perhaps to work on an experimental new feature. Branches are more likely than clones to diverge significantly from the original.
+
+Forking would be used when you want to use a repository as a base to for your own project, that may not necessarily be merged back to the original. Forking still retains a historical link to the original, allowing for attribution and receiving updates, but a fork has a high potential to diverge into a separate project of its own.
